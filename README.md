@@ -1,0 +1,1 @@
+diese Webseite dient mir als übung, künftig soll ein komplettes reservierungs und buchungs system mit entwickelt werden in c# und benutzung von datenbanken um meine Fähigkeiten in objekt orientierten Programmiersprachen auszubauen.

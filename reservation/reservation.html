@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trattoria Bella Vita</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Trattoria Bella Vita</h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Startseite</a></li>
+          <li><a href="/menu/menu.html">Speisekarte</a></li>
+          <li><a href="reservation.html">Reservieren</a></li>
+          <li><a href="/contact/contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <img
+          src="/images/guyWithPizza.png"
+          alt="Mann mit Pizza"
+          class="hero-img left"
+        />
+
+        <div class="hero-text">
+          <h2>Reservierungen</h2>
+          <p>Erleben Sie italienische Küche in ihrer schönsten Form.</p>
+
+          <form class="reservation-form">
+            <label for="res-date">Reservierungsdatum:</label>
+            <input type="date" id="res-date" name="res-date" required />
+
+            <label for="res-persons">Anzahl der Personen:</label>
+            <input
+              type="number"
+              id="res-persons"
+              name="res-persons"
+              min="1"
+              max="20"
+              required
+            />
+
+            <label for="res-time">Uhrzeit:</label>
+            <input type="time" id="res-time" name="res-time" required />
+
+            <button type="submit" class="btn">Reservierung abschicken</button>
+          </form>
+        </div>
+
+        <img
+          src="/images/womanWithPizza.png"
+          alt="Frau mit Pizza"
+          class="hero-img right"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Trattoria Bella Vita – Via del Gusto 12, 12345 Roma</p>
+    </footer>
+  </body>
+</html>
